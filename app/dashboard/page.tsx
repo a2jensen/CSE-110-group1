@@ -1,3 +1,4 @@
+import UpcomingEvents from "@/components/events/events";
 import Link from "next/link";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
             <div>
                 <Link href="/">Sign out</Link>
             </div>
+            <UpcomingEvents roomName="testRoom"/>
         </>
     );
 }
